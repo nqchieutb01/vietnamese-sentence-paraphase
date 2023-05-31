@@ -1,7 +1,7 @@
 # Vietnamese Sentence Paraphrasing Project
 This project aims to develop a system that can paraphrase Vietnamese sentences. Paraphrasing is the process of rewriting a sentence or passage of text while maintaining its original meaning. 
-This can be useful for a variety of purposes.
-We use paraphase dataset [Link]([https://link-url-here.org](https://huggingface.co/datasets/humarin/chatgpt-paraphrases)) in English and translate it to Vietnamese. 
+This can be useful for a variety of purposes. <br />
+We use paraphase dataset [Link](https://huggingface.co/datasets/humarin/chatgpt-paraphrases) in English and translate it to Vietnamese.  <br />
 We also provide translated data and script for fine-tune T5 model.
 # Requirements
 The system will be implemented in Python and will require the following libraries:
