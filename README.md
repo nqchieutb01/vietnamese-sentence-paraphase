@@ -1,8 +1,8 @@
 # Vietnamese Sentence Paraphrasing Project
 This project aims to develop a system that can paraphrase Vietnamese sentences. Paraphrasing is the process of rewriting a sentence or passage of text while maintaining its original meaning. 
 This can be useful for a variety of purposes.
-
-We also provied training data and script for fine-tune T5 model.
+We use paraphase dataset [Link]([https://link-url-here.org](https://huggingface.co/datasets/humarin/chatgpt-paraphrases)) in English and translate it to Vietnamese. 
+We also provide translated data and script for fine-tune T5 model.
 # Requirements
 The system will be implemented in Python and will require the following libraries:
 * transformers
@@ -57,4 +57,11 @@ Input: Ngoài ra, nắng nóng còn có thể gây tình trạng mất nước, 
 Output: Hơn nữa, nắng nóng có thể dẫn đến mất nước, kiệt sức, đột quỵ do sốc nhiệt đối với cơ thể người khi tiếp xúc lâu với nền nhiệt độ cao.
 ----------------------------------------------------------------------------------------------------
 ```
+
+# Reference
+@inproceedings{chatgpt_paraphrases_dataset,
+  author={Vladimir Vorobev, Maxim Kuznetsov},
+  title={ChatGPT paraphrases dataset},
+  year={2023}
+}
   
