@@ -9,8 +9,10 @@ The system will be implemented in Python and will require the following librarie
 * sentencepiece
 
 # Usage
+We have pushed the model to Huggingface, and now anyone can run it with just a few lines of code. 
+The file **run_gg_colab.ipynb'** provides guidance on how to run the model in Google Colab.
+
 ```Python
-# File run_gg_colab.ipynb guided how to run in google colab
 
 # Download my fine-tuned model using vi-T5-base.
 CKPT = 'chieunq/vietnamese-sentence-paraphase'
