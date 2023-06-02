@@ -60,6 +60,8 @@ Output: Hơn nữa, nắng nóng có thể dẫn đến mất nước, kiệt s�
 ----------------------------------------------------------------------------------------------------
 ```
 
+We also have a function that produces many sentences (in **run_gg_colab.ipynb'**) with the same meaning as the input. However, in some cases, it generates false paraphrased sentences. Therefore, be careful before applying it to your task.
+
 # Reference
 @inproceedings{chatgpt_paraphrases_dataset,
   author={Vladimir Vorobev, Maxim Kuznetsov},
